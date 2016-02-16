@@ -1,11 +1,13 @@
 {
-	"nativescript": {
-		"id": "org.nativescript.BirthdayReminder",
-		"tns-android": {
-			"version": "1.5.1"
-		}
-	},
-	"dependencies": {
-		"tns-core-modules": "1.5.2"
-	}
+  "nativescript": {
+    "id": "org.nativescript.BirthdayReminder",
+    "tns-android": {
+      "version": "1.5.1"
+    }
+  },
+  "dependencies": {
+    "everlive-sdk": "^1.6.6",
+    "nativescript-sqlite": "^1.0.7",
+    "tns-core-modules": "1.5.2"
+  }
 }

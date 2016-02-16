@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="049fec08-8bb1-4167-a677-079518540ca3" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\libs\jni\armeabi-v7a\libAssetExtractor.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\libs\jni\x86\libAssetExtractor.so" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\metadata\libs\ambiguous_jar_0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\metadata\libs\ambiguous_jar_1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\metadata\libs\ambiguous_jar_2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\metadata\libs\android.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\metadata\libs\nativescript.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\metadata\libs\support-annotations-22.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mhristov\Documents\GitRepos\everlive-js-sdk\test\mobile\EverliveNativeScript\platforms\android\metadata\libs\widgets.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/jni/armeabi-v7a/libNativeScript.so" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/jni/armeabi-v7a/libNativeScript.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/jni/x86/libNativeScript.so" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/jni/x86/libNativeScript.so" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/metadata-generator.jar" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/metadata-generator.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/nativescript.jar" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/nativescript.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/widgets.jar" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/libs/widgets.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/src/main/java/com/extend/generator/ExtendClassGenerator.java" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/src/main/java/com/extend/generator/ExtendClassGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/interface-name-generator/src/main/java/com/ig/GetInterfaceNames.java" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/interface-name-generator/src/main/java/com/ig/GetInterfaceNames.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/src/main/java/com/extend/generator/JarLister.java" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/src/main/java/com/extend/generator/JarLister.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/LICENSE" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/src/main/java/com/extend/generator/NSClassLoader.java" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/src/main/java/com/extend/generator/NSClassLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/tfis/TFIS2.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/tfis/TFIS2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/tfis/TFIS2.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/tfis/TFIS2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/TestRunner.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/TestRunner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/TestRunner.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/TestRunner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/absolute-layout/absolute-layout-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/absolute-layout/absolute-layout-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/absolute-layout/absolute-layout.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/absolute-layout/absolute-layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/action-bar/action-bar-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/action-bar/action-bar-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/action-bar/action-bar.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/action-bar/action-bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/activity-indicator/activity-indicator-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/activity-indicator/activity-indicator-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/activity-indicator/activity-indicator.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/activity-indicator/activity-indicator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/animation/animation-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/animation/animation-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/animation/animation.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/animation/animation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application/application-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application/application-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application-settings/application-settings-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application-settings/application-settings-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application-settings/application-settings.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application-settings/application-settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application/application.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/background-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/background-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/background.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/background.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/bindable.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/bindable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/binding-builder.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/binding-builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/border/border.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/border/border.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build.gradle" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/build.gradle" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/build.gradle" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/interface-name-generator/build.gradle" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/interface-name-generator/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/builder.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/button/button-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/button/button-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/button/button.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/button/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/.gradle/2.8/taskArtifacts/cache.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/camera/camera-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/camera/camera-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/camera/camera.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/camera/camera.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/color-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/color-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/color.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/color.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values-v21/colors.xml" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values-v21/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/component-builder.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/component-builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/config.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/config.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveCordova/config.xml" afterPath="$PROJECT_DIR$/test/mobile/EverliveCordova/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/connectivity/connectivity-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/connectivity/connectivity-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/connectivity/connectivity.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/connectivity/connectivity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/console/console.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/console/console.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/content-view/content-view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/content-view/content-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/converters.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/converters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/css-selector.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/css-selector.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/date-picker/date-picker-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/date-picker/date-picker-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/date-picker/date-picker.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/date-picker/date-picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/dependency-observable.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/dependency-observable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/dialogs/dialogs-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/dialogs/dialogs-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/dialogs/dialogs.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/dialogs/dialogs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/dock-layout/dock-layout-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/dock-layout/dock-layout-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/dock-layout/dock-layout.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/dock-layout/dock-layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/easysax/easysax.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/easysax/easysax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/editable-text-base/editable-text-base-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/editable-text-base/editable-text-base-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/editable-text-base/editable-text-base.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/editable-text-base/editable-text-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/enums/enums.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/enums/enums.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/esprima/esprima.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/esprima/esprima.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-all-offline.html" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-all-offline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-all-offline.html" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-all-offline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-all.html" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-all.html" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-caching/everlive-caching.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-caching/everlive-caching.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-caching/everlive-caching.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-caching/everlive-caching.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-crud/everlive-crud.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-crud/everlive-crud.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-crud/everlive-crud.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-crud/everlive-crud.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-events/everlive-events.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-events/everlive-events.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-events/everlive-events.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-events/everlive-events.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-expand/everlive-expand-offline.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-expand/everlive-expand-offline.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-expand/everlive-expand-offline.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-expand/everlive-expand-offline.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-files/everlive-files.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-files/everlive-files.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-files/everlive-files.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-files/everlive-files.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-kendo/everlive-kendo.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-kendo/everlive-kendo.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-kendo/everlive-kendo.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-kendo/everlive-kendo.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-query/everlive-query.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-query/everlive-query.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-query/everlive-query.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-query/everlive-query.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-users/everlive-users.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/everlive-users/everlive-users.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-users/everlive-users.test.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/everlive-users/everlive-users.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/everlive.platform.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/everlive.platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/everlive.platform.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/everlive.platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/externalconfig.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/externalconfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/externalconfig.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/suites/externalconfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/suites/externalconfig.js" afterPath="$PROJECT_DIR$/test/suites/externalconfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fetch/fetch.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fetch/fetch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/file-name-resolver.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/file-name-resolver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/file-system-access.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/file-system-access.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/file-system.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/file-system.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/font-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/font-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/font.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/font.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/formatted-string-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/formatted-string-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/formatted-string.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/formatted-string.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fps-meter/fps-meter.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fps-meter/fps-meter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fps-meter/fps-native.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fps-meter/fps-native.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/frame/frame-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/frame/frame-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/frame/frame.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/frame/frame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/gestures/gestures-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/gestures/gestures-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/gestures/gestures.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/gestures/gestures.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/globals/globals.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/globals/globals.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/grid-layout/grid-layout-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/grid-layout/grid-layout-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/grid-layout/grid-layout.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/grid-layout/grid-layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/html-view/html-view-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/html-view/html-view-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/html-view/html-view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/html-view/html-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/http/http-request.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/http/http-request.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/http/http.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/http/http.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image-cache/image-cache-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image-cache/image-cache-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image-cache/image-cache.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image-cache/image-cache.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image/image-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image/image-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/image-source/image-source-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/image-source/image-source-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/image-source/image-source.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/image-source/image-source.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image/image.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/known-colors.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/known-colors.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/label/label-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/label/label-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/label/label.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/label/label.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/layout-base.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/layout-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/layout.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-picker/list-picker-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-picker/list-picker-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-picker/list-picker.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-picker/list-picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-view/list-view-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-view/list-view-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-view/list-view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-view/list-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/location/location-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/location/location-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/location/location.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/location/location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/module-merge.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/module-merge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/number-utils.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/number-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable-array/observable-array.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable-array/observable-array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable/observable.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable/observable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/ast-parser/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/ast-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application-settings/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/application-settings/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/camera/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/camera/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/color/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/connectivity/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/connectivity/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/console/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/console/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css-value/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css-value/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable-array/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/observable-array/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/virtual-array/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/virtual-array/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fetch/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fetch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/file-system/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fps-meter/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/fps-meter/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/globals/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/globals/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/http/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/http/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/image-source/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/image-source/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/easysax/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/easysax/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/esprima/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/esprima/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/polymer-expressions/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/polymer-expressions/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/location/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/location/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/platform/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/platform/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/timer/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/timer/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/trace/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/trace/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/action-bar/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/action-bar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/activity-indicator/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/activity-indicator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/animation/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/animation/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/border/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/border/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/button/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/button/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/content-view/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/content-view/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/date-picker/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/date-picker/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/dialogs/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/dialogs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/editable-text-base/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/editable-text-base/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/enums/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/enums/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/frame/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/frame/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/gestures/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/gestures/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/html-view/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/html-view/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image-cache/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/image-cache/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/label/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/label/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/absolute-layout/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/absolute-layout/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/dock-layout/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/dock-layout/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/grid-layout/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/grid-layout/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/stack-layout/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/stack-layout/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/wrap-layout/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/wrap-layout/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-picker/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-picker/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-view/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/list-view/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/page/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/page/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/placeholder/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/placeholder/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/progress/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/progress/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/repeater/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/repeater/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/scroll-view/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/scroll-view/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/search-bar/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/search-bar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/segmented-bar/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/segmented-bar/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/slider/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/slider/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/switch/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/switch/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/tab-view/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/tab-view/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-base/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-base/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-field/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-field/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-view/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-view/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/time-picker/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/time-picker/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/web-view/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/web-view/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xhr/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xhr/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xml/package.json" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xml/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/page/page-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/page/page-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/page/page.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/page/page.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/polymer-expressions/path-parser.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/polymer-expressions/path-parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/placeholder/placeholder-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/placeholder/placeholder-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/placeholder/placeholder.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/placeholder/placeholder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/platform/platform.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/platform/platform.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/polymer-expressions/polymer-expressions.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/js-libs/polymer-expressions/polymer-expressions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/internal/prepareExtend.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/internal/prepareExtend.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/progress/progress-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/progress/progress-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/progress/progress.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/progress/progress.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/proxy.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/proxy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/repeater/repeater.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/repeater/repeater.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css-value/reworkcss-value.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css-value/reworkcss-value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css/reworkcss.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/css/reworkcss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/scroll-view/scroll-view-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/scroll-view/scroll-view-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/scroll-view/scroll-view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/scroll-view/scroll-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/search-bar/search-bar-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/search-bar/search-bar-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/search-bar/search-bar.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/search-bar/search-bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/segmented-bar/segmented-bar-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/segmented-bar/segmented-bar-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/segmented-bar/segmented-bar.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/segmented-bar/segmented-bar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/settings.gradle" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/slider/slider-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/slider/slider-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/slider/slider.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/slider/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/span-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/span-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/span.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/span.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/special-properties.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/special-properties.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/stack-layout/stack-layout-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/stack-layout/stack-layout-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/stack-layout/stack-layout.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/stack-layout/stack-layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/style-property.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/style-property.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/style-scope.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/style-scope.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/style.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/stylers-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/stylers-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/stylers.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/stylers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/res/values-v21/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/styling.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/styling.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/switch/switch-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/switch/switch-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/switch/switch.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/switch/switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/tab-view/tab-view-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/tab-view/tab-view-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/tab-view/tab-view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/tab-view/tab-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/template-builder.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/builder/template-builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/testResultsnodejs.tap" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/testResultsnodejs.tap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/testResultsnodejs.tap" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/test/testResultsnodejs.tap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/test_coommand.txt" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/binding-generator/test_coommand.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-base/text-base.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-base/text-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-field/text-field-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-field/text-field-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-field/text-field.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-field/text-field.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-view/text-view-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-view/text-view-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-view/text-view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/text-view/text-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/text.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/text/text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/time-picker/time-picker-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/time-picker/time-picker-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/time-picker/time-picker.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/time-picker/time-picker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/timer/timer.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/timer/timer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/trace/trace.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/trace/trace.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/ast-parser/traverse_files.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/build-tools/android-static-binding-generator/ast-parser/traverse_files.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/types.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/ui.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/utils-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/utils-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/utils.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/utils/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/view-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/view-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/virtual-array/virtual-array.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/data/virtual-array/virtual-array.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/visual-state-constants.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/visual-state-constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/visual-state.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/styling/visual-state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/weak-event-listener.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/core/weak-event-listener.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/web-view/web-view-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/web-view/web-view-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/web-view/web-view.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/web-view/web-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/wrap-layout/wrap-layout-common.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/wrap-layout/wrap-layout-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/wrap-layout/wrap-layout.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/ui/layouts/wrap-layout/wrap-layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xhr/xhr.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xhr/xhr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xml/xml.js" afterPath="$PROJECT_DIR$/test/mobile/EverliveNativeScript/platforms/android/src/main/assets/app/tns_modules/xml/xml.js" />
+    </list>
+    <ignored path="everlive-js-sdk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="everlive-js-sdk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="everlive-crud.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/suites/everlive-crud/everlive-crud.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-261.44827">
+              <caret line="509" column="18" selection-start-line="509" selection-start-column="18" selection-end-line="509" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="everlive-expand-offline.test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/suites/everlive-expand/everlive-expand-offline.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.581465">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/suites/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="externalconfig.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/suites/externalconfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <marker date="1455281717449" expanded="true" signature="13:63" placeholder="{...}" />
+                <marker date="1455281717449" expanded="true" signature="61:63" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="everlive-users.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/suites/everlive-users/everlive-users.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.5172415">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="everlive.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/everlive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4482758">
+              <caret line="13464" column="2" selection-start-line="13464" selection-start-column="2" selection-end-line="13464" selection-end-column="2" />
+              <folding>
+                <marker date="1455281718805" expanded="true" signature="334:1066006" placeholder="{...}" />
+                <marker date="1455281718805" expanded="true" signature="811:1065991" placeholder="{...}" />
+                <marker date="1455281718805" expanded="true" signature="511712:514896" placeholder="[...]" />
+                <marker date="1455281718805" expanded="true" signature="511745:514896" placeholder="{...}" />
+                <marker date="1455281718805" expanded="true" signature="512633:514896" placeholder="{...}" />
+                <marker date="1455281718805" expanded="true" signature="512723:514896" placeholder="/** @class Everlive ...*/" />
+                <marker date="1455281718805" expanded="true" signature="1026845:1051505" placeholder="{...}" />
+                <marker date="1455281718805" expanded="true" signature="1026845:1051508" placeholder="{...}" />
+                <marker date="1455281718805" expanded="true" signature="1026845:1051603" placeholder="[...]" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/suites/everlive-kendo/everlive-kendo.test.js" />
+        <option value="$PROJECT_DIR$/test/suites/everlive-events/everlive-events.test.js" />
+        <option value="$PROJECT_DIR$/everlive.js" />
+        <option value="$PROJECT_DIR$/test/suites/everlive-files/everlive-files.test.js" />
+        <option value="$PROJECT_DIR$/test/suites/everlive-crud/everlive-crud.test.js" />
+        <option value="$PROJECT_DIR$/test/suites/externalconfig.js" />
+        <option value="$PROJECT_DIR$/test/suites/everlive-users/everlive-users.test.js" />
+        <option value="$PROJECT_DIR$/test/suites/everlive-expand/everlive-expand-offline.test.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-permissions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-kendo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-expand" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-js-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="everlive-crud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="049fec08-8bb1-4167-a677-079518540ca3" name="Default" comment="" />
+      <created>1453819836042</created>
+      <option name="number" value="Default" />
+      <updated>1453819836042</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31958762" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-kendo/everlive-kendo.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="243" column="37" selection-start-line="243" selection-start-column="37" selection-end-line="243" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everlive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1455281718805" expanded="true" signature="334:1066006" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="811:1065991" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="511712:514896" placeholder="[...]" />
+            <marker date="1455281718805" expanded="true" signature="511745:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512633:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512723:514896" placeholder="/** @class Everlive ...*/" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051505" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051508" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051603" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/lib/kendo.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4793" column="12" selection-start-line="4793" selection-start-column="12" selection-end-line="4793" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-kendo/everlive-kendo.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everlive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20170" column="6" selection-start-line="20170" selection-start-column="6" selection-end-line="20170" selection-end-column="6" />
+          <folding>
+            <marker date="1455281718805" expanded="true" signature="334:1066006" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="811:1065991" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="511712:514896" placeholder="[...]" />
+            <marker date="1455281718805" expanded="true" signature="511745:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512633:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512723:514896" placeholder="/** @class Everlive ...*/" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051505" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051508" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051603" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/lib/kendo.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4793" column="12" selection-start-line="4793" selection-start-column="12" selection-end-line="4793" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-crud/everlive-crud.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everlive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17107" column="42" selection-start-line="17107" selection-start-column="42" selection-end-line="17107" selection-end-column="42" />
+          <folding>
+            <marker date="1455281718805" expanded="true" signature="334:1066006" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="811:1065991" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="511712:514896" placeholder="[...]" />
+            <marker date="1455281718805" expanded="true" signature="511745:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512633:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512723:514896" placeholder="/** @class Everlive ...*/" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051505" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051508" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051603" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/everlive.platform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/suites/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55458516">
+          <caret line="187" column="4" selection-start-line="187" selection-start-column="4" selection-end-line="187" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-kendo/everlive-kendo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mobile/EverliveNativeScript/app/test/lib/kendo.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4793" column="12" selection-start-line="4793" selection-start-column="12" selection-end-line="4793" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-events/everlive-events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-events/everlive-events.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-134.24138">
+          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-kendo/everlive-kendo.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.443959">
+          <caret line="220" column="37" selection-start-line="220" selection-start-column="37" selection-end-line="220" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/everlive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4482758">
+          <caret line="13464" column="2" selection-start-line="13464" selection-start-column="2" selection-end-line="13464" selection-end-column="2" />
+          <folding>
+            <marker date="1455281718805" expanded="true" signature="334:1066006" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="811:1065991" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="511712:514896" placeholder="[...]" />
+            <marker date="1455281718805" expanded="true" signature="511745:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512633:514896" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="512723:514896" placeholder="/** @class Everlive ...*/" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051505" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051508" placeholder="{...}" />
+            <marker date="1455281718805" expanded="true" signature="1026845:1051603" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-files/everlive-files.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-crud/everlive-crud.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-261.44827">
+          <caret line="509" column="18" selection-start-line="509" selection-start-column="18" selection-end-line="509" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/externalconfig.template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6928675">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="33" selection-start-line="56" selection-start-column="33" selection-end-line="56" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/externalconfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <marker date="1455281717449" expanded="true" signature="13:63" placeholder="{...}" />
+            <marker date="1455281717449" expanded="true" signature="61:63" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-users/everlive-users.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5172415">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suites/everlive-expand/everlive-expand-offline.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.581465">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

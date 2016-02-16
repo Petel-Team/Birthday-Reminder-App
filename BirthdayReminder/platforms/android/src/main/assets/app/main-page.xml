@@ -3,5 +3,6 @@
     <Label text="Tap the button" class="title"/>
     <Button text="TAP" tap="{{ tapAction }}" />
     <Label text="{{ message }}" class="message" textWrap="true"/>
+    <Label text="{{ms}}"/>
   </StackLayout>
 </Page>

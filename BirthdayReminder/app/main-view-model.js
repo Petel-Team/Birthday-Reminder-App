@@ -5,6 +5,14 @@ var HelloWorldModel = (function (_super) {
         _super.call(this);
         this.counter = 42;
         this.set("message", this.counter + " taps left");
+
+        var places = global.everlive.data('Custom_Users');
+
+places.get(null, function(data) {
+        this.set("ms",JSON.stringify(data));
+}, function(err) {
+    alert(err.message);
+});
     }
     HelloWorldModel.prototype.tapAction = function () {
         this.counter--;
