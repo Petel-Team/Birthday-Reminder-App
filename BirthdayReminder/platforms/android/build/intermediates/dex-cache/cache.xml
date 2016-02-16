@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\PackMan\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jar="D:\Users\eLa\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Users\PackMan\Documents\GitHub\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-ddeebf6579289545b16b76696f6a90ec06646f6b.jar" />
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-3cd20d1ce7054cc98bed0ba8641b0fe8c39739d0.jar" />
     </item>
     <item
-        jar="C:\Users\PackMan\Documents\GitHub\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\widgets.jar"
+        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\widgets.jar"
         jumboMode="false"
-        revision="22.0.1"
+        revision="23.0.2"
         sha1="ff3c62a8eb22f0111b882125ad1579dc6273fd90">
-        <dex dex="C:\Users\PackMan\Documents\GitHub\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\widgets-8715925942327937d0c4e3d2e099b56a44957db5.jar" />
+        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\widgets-4fb6dbcbb0635c0741ced1f0c844b1042eb10648.jar" />
     </item>
     <item
-        jar="C:\Users\PackMan\Documents\GitHub\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\nativescript.jar"
+        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\nativescript.jar"
         jumboMode="false"
-        revision="22.0.1"
+        revision="23.0.2"
         sha1="e49ee2301dce2f85edd44f634fd45ad92df9e00a">
-        <dex dex="C:\Users\PackMan\Documents\GitHub\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\nativescript-96aeb2aab844295746a706a5ed3de9ecb3f38206.jar" />
+        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\nativescript-345ccf851f839dff54ab1bf8b3eadb68cdc07cfa.jar" />
     </item>
 
 </items>
