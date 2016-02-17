@@ -33,8 +33,8 @@ function pageLoaded(args) {
 
             newBackendUser.get(filter)
                 .then(function (data) {
-                    if (data["count"] != "1") {
-                        console.log("success");
+                    if (data["count"] == "0") {
+                        console.log("SUCCESS");
 
                         newBackendUser.create({
                                 'username': usernameValue,
@@ -42,13 +42,12 @@ function pageLoaded(args) {
                                 'token': token
                             },
                             function (data) {
-
                                 var db_promise = new global.Sqlite("user_token.db", function (err, db) {
                                     if (err) {
-                                        console.error("We failed to open database", err);
+                                        console.error("OPEN DATABASE FAILED", err);
                                     } else {
                                         // This should ALWAYS be true, db object is open in the "Callback" if no errors occurred
-                                        console.log("Are we open yet (Inside Callback)? ", db.isOpen() ? "Yes" : "No"); // Yes
+                                        console.log("DATABASE OPEN"); // Yes
 
                                         db.execSQL("DELETE FROM user_token_table", function (err) {
                                             if (err) {
@@ -61,7 +60,7 @@ function pageLoaded(args) {
 
                                         db.execSQL("INSERT INTO user_token_table (token) VALUES (?)", [token], function (err, id) {
                                             if (err) {
-                                                console.error("We failed to open database", err);
+                                                console.error("INSERT FAILED", err);
                                             } else {
                                                 console.log("The new record id is:", id);
                                             }
@@ -77,35 +76,22 @@ function pageLoaded(args) {
                                         db.close;
                                     }
                                 });
-                                console.log(JSON.stringify(data));
+                                console.log("111111",JSON.stringify(data));
                             },
                             function (error) {
-                                console.log(JSON.stringify(error));
+                                console.log("222222",JSON.stringify(error));
                             });
-
+                        console.log("333333",JSON.stringify(data));
                         frame.topmost().navigate("./views/user_profile/user_profile");
                     }
                     else {
-                        label.text = "Username or Password are wrong!"
+                        console.log("EXISTS");
+                        label.text = "Username exists!"
                     }
                 },
                 function (err) {
                     console.log(JSON.stringify(err));
                 });
-
-            newBackendUser.create({
-                    'username': usernameValue,
-                    'password': passwordValue,
-                    'token': token
-                },
-                function (data) {
-                    console.log(JSON.stringify(data));
-                },
-                function (error) {
-                    console.log(JSON.stringify(error));
-                });
-
-            /**/
         }
     });
 }
