@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="D:\Users\eLa\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-3cd20d1ce7054cc98bed0ba8641b0fe8c39739d0.jar" />
-    </item>
-    <item
         jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\widgets.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="ff3c62a8eb22f0111b882125ad1579dc6273fd90">
         <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\widgets-4fb6dbcbb0635c0741ced1f0c844b1042eb10648.jar" />
+    </item>
+    <item
+        jar="D:\Users\eLa\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-3cd20d1ce7054cc98bed0ba8641b0fe8c39739d0.jar" />
     </item>
     <item
         jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\nativescript.jar"
