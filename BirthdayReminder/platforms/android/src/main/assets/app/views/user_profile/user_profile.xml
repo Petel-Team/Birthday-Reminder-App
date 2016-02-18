@@ -2,8 +2,8 @@
     <ScrollView>
         <StackLayout>
             <Image src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/anonymous-512.png"
-                   stretch="none" horizontalAlignment="center"/>
-            <Button text="pick a picture" tap="" class="profile-btn"/>
+                   stretch="none" horizontalAlignment="center" id="userpicture"/>
+            <Button text="pick a picture" tap="" class="profile-btn" id="takePictureButton"/>
 
             <GridLayout rows="40, 40, 40, 40, 40" columns="*, *" horizontalAlignment="center">
                 <Label text="Username:" row="0" col="0"/>

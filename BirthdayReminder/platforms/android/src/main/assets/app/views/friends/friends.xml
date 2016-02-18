@@ -4,7 +4,7 @@
         <ListView items="{{items}}" id="friendsList">
             <ListView.itemTemplate>
                 <StackLayout>
-                    <Label text="{{firstname}}"/>
+                    <Label text="{{firstname || 'Downloading...' }}"/>
                 </StackLayout>
             </ListView.itemTemplate>
         </ListView>
