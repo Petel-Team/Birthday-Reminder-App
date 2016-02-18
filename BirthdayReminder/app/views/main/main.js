@@ -4,17 +4,13 @@ var view = require("ui/core/view");
 function pageLoaded(args) {
     var page = args.object;
 
-    /*var db = new global.Sqlite("user_token_table", function(err, db) {
-        if (err) {
-            console.error("We failed to open database", err);
-        } else
-        {
-        // This should ALWAYS be true, db object is open in the "Callback" if no errors occurred
-            console.log("Are we open yet (Inside Callback)? ", db.isOpen() ? "Yes" : "No"); // Yes
-    }
-});
-
-    db.close;*/
+    global.currUser.id = "67d3b5c0-d64a-11e5-a423-df559cec2fd1";
+    global.currUser.username="uuuuuuu";
+    global.currUser.email = "eeeeee";
+    global.currUser.token="uuuuuuuuuuuuuuuuuuuuu";
+    global.currUser.firstname="fffff";
+    global.currUser.lastname="llllll";
+    global.currUser.birthday="1.1.1950";
 
     var username = view.getViewById(page, "username");
     var password = view.getViewById(page, "password");
