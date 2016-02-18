@@ -68,13 +68,6 @@ function pageLoaded(args) {
                         if (data["count"] == "0") {
                             console.log("SUCCESS");
 
-                            global.currUser.username=usernameValue;
-                            global.currUser.email = emailValue;
-                            global.currUser.token=token;
-                            global.currUser.firstname=firstNameValue;
-                            global.currUser.lastname=lastNameValue;
-                            global.currUser.birthday=birthday;
-
                             newBackendUser.create({
                                     'username': usernameValue,
                                     'password': passwordValue,
@@ -119,13 +112,23 @@ function pageLoaded(args) {
                                             db.close;
                                         }
                                     });
+                                    global.currUser.id = data['result']['Id'];
+                                    global.currUser.username=usernameValue;
+                                    global.currUser.email = emailValue;
+                                    global.currUser.token=token;
+                                    global.currUser.firstname=firstNameValue;
+                                    global.currUser.lastname=lastNameValue;
+                                    global.currUser.birthday=birthday;
+
+                                    console.log("111111", JSON.stringify(global.currUser));
                                     console.log("111111", JSON.stringify(data));
+                                    frame.topmost().navigate("./views/user_profile/user_profile");
                                 },
                                 function (error) {
                                     console.log("222222", JSON.stringify(error));
                                 });
+
                             console.log("333333", JSON.stringify(data));
-                            frame.topmost().navigate("./views/user_profile/user_profile");
                         }
                         else {
                             console.log("EXISTS");

@@ -13,6 +13,7 @@ new global.Sqlite("user_token.db", function(err, db) {
 });
 
 global.currUser={
+    'id':"",
     'username': "",
     'token': "",
     'firstname': "",
