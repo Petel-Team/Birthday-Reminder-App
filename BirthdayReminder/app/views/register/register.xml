@@ -1,9 +1,18 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ScrollView>
     <StackLayout>
         <TextField id="username" hint="Username (5-10)" width="400" height="100"/>
         <TextField id="password" hint="Password (5-10)" width="400" height="100"/>
         <TextField id="confirmPassword" hint="Confirm Password (5-10)" width="400" height="100"/>
-        <Button id="registerButton" text="Register" />
-        <Label id="label" text="REGISTER"/>
+        <TextField id="firstname" hint="First Name (5-10)" width="400" height="100"/>
+        <TextField id="lastname" hint="Last Name (5-10)" width="400" height="100"/>
+        <TextField id="email" hint="Email" width="400" height="100"/>
+        <Label text="Birthday"/>
+        <DatePicker id="birthday"/>
+        <Button id="takePictureButton" text="Take Picture"/>
+        <Image id="picture" stretch="none" horizontalAlignment="center"/>
+        <Button id="registerButton" text="Register"/>
+        <Label id="label"/>
     </StackLayout>
+    </ScrollView>
 </Page>
