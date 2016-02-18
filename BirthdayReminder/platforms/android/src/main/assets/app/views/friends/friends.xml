@@ -1,10 +1,10 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
     <StackLayout>
         <Button text="Add item" tap="{{addItem}}"/>
-        <ListView items="{{items}}">
+        <ListView items="{{items}}" id="friendsList">
             <ListView.itemTemplate>
                 <StackLayout>
-                    <Label text="{{time}}"/>
+                    <Label text="{{firstname}}"/>
                 </StackLayout>
             </ListView.itemTemplate>
         </ListView>

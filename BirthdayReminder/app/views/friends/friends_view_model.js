@@ -7,7 +7,25 @@ class FriendsModel extends observable.Observable {
   constructor() {
     super();
     this.items = new observableArrayModule.ObservableArray([]);
+
+    //The very ugly lines I mentioned
+    // var filter = {
+    // 'custom_user_id': global.currUser.id
+    // };
+
+    // var backEndUserFriends = global.everlive.data('Friends');
+    // var self = this;
+
+    // backEndUserFriends.get(filter)
+    //     .then(function (data) {
+    //             self.items = data["result"];
+    //             console.dir(self.items);
+    //         },
+    //         function (error) {
+    //             console.dir(JSON.stringify(error));
+    //         });
   }
+
 
   addItem() {
   	console.log('Tapped')
@@ -15,6 +33,25 @@ class FriendsModel extends observable.Observable {
       time: 5555
     });
     //console.dir(this.items);
+  }
+
+ //Where can we call this ??
+  getItems(){
+    var filter = {
+    'custom_user_id': global.currUser.id
+    };
+
+    var backEndUserFriends = global.everlive.data('Friends');
+    var self = this;
+
+    backEndUserFriends.get(filter)
+        .then(function (data) {
+                self.items = data["result"];
+                console.dir(self.items);
+            },
+            function (error) {
+                console.dir(JSON.stringify(error));
+            });
   }
 
 }
