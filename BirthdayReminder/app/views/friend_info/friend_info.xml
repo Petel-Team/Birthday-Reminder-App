@@ -18,6 +18,7 @@
                 <Label text="Ideas:" row="3" col="0"/>
                 <Label id="ideas" text="Ideas" row="3" col="1"/>
             </GridLayout>
+            <Button text="Delete friend" class="profile-btn" id="deleteFriendButton"/>
         </StackLayout>
     </ScrollView>
 </Page>

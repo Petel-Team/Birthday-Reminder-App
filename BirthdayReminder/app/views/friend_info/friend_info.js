@@ -12,6 +12,7 @@ function pageLoaded(args) {
     var birthday = view.getViewById(page, "birthday");
     var takePictureButton = view.getViewById(page, "takePictureButton");
     var userPicture = view.getViewById(page, "userpicture");
+    var deleteFriendButton = view.getViewById(page, "deleteFriendButton");
 
     firstName.text= global.selectedFriend.firstname;
     lastName.text = global.selectedFriend.lastname;
@@ -38,6 +39,19 @@ function pageLoaded(args) {
                     console.log(JSON.stringify(error));
                 });
         });
+    });
+
+    deleteFriendButton.on("Tap", function(){
+        var deleteFriend = global.everlive.data('Friends');
+
+        deleteFriend.destroySingle({ Id: global.selectedFriend.Id },
+            function(){
+                console.log('Item successfully deleted.');
+                frame.topmost().navigate("./views/friends/friends");
+            },
+            function(error){
+                console.dir(JSON.stringify(error));
+            });
     });
 
 }
