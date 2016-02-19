@@ -14,6 +14,7 @@ function pageLoaded(args) {
     this.friendsArray = new observableArrayModule.ObservableArray([]);
     var backEndUserFriends = global.everlive.data('Friends');
     var listView = page.getViewById("friendsList");
+    var addFriendButton = view.getViewById(page, "addFriendButton");
     listView.items = this.friendsArray;
 
     backEndUserFriends.get(filter)
@@ -28,6 +29,10 @@ function pageLoaded(args) {
     listView.on(listViewModule.ListView.itemTapEvent, function (args) {
         global.selectedFriend = self.friendsArray.getItem(args.index);
         frame.topmost().navigate("./views/friend_info/friend_info");
+    });
+
+    addFriendButton.on("Tap",function(){
+        frame.topmost().navigate("./views/add_friend/add_friend");
     });
 
 
