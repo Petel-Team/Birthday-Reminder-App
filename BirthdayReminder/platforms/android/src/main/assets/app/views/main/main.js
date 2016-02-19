@@ -4,13 +4,18 @@ var view = require("ui/core/view");
 function pageLoaded(args) {
     var page = args.object;
 
-    global.currUser.id = "67d3b5c0-d64a-11e5-a423-df559cec2fd1";
-    global.currUser.username="uuuuuuu";
-    global.currUser.email = "eeeeee";
-    global.currUser.token="uuuuuuuuuuuuuuuuuuuuu";
-    global.currUser.firstname="fffff";
-    global.currUser.lastname="llllll";
-    global.currUser.birthday="1.1.1950";
+    var glCurrUser = global.everlive.data('Custom_Users');
+    var filter = {
+        'Id': "67d3b5c0-d64a-11e5-a423-df559cec2fd1"
+    };
+
+    glCurrUser.get(filter)
+        .then(function(data){
+                global.currUser = data['result'][0];
+            },
+            function(error){
+                console.dir(error);
+            });
 
     var username = view.getViewById(page, "username");
     var password = view.getViewById(page, "password");

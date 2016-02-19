@@ -21,6 +21,7 @@ function pageLoaded(args) {
     lastName.text = global.currUser.lastname;
     email.text = global.currUser.email;
     birthday.text = global.currUser.birthday;
+    userPicture.src = global.currUser.image;
 
     viewFriendsButton.on("Tap",function(){
         frame.topmost().navigate("./views/friends/friends");
@@ -29,12 +30,20 @@ function pageLoaded(args) {
     takePictureButton.on("Tap", function(){
         cameraModule.takePicture().then(function(picture) {
 
-            console.log(imageSource.fromFile(picture));
+
             userPicture.imageSource = picture;
             var folder = fs.knownFolders.documents();
-            var path = fs.path.join(folder.path, "Test.png");
+            var path = fs.path.join(folder.path, global.currUser.name + global.currUser.email + global.currUser.birthday + ".png");
             console.log(userPicture.imageSource.saveToFile(path,enums.ImageFormat.png));
-            console.dir(fs.File.fromPath(path));
+            global.currUser.image = path;
+            var updateUser = global.everlive.data('Custom_Users');
+            updateUser.updateSingle({ Id: global.currUser.Id, 'image': path},
+                function(data){
+                    console.log(JSON.stringify(data));
+                },
+                function(error){
+                    console.log(JSON.stringify(error));
+                });
         });
     });
 }

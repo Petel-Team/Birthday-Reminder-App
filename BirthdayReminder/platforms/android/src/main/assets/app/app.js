@@ -12,16 +12,6 @@ new global.Sqlite("user_token.db", function(err, db) {
             db.version(1);
 });
 
-global.currUser={
-    'id':"",
-    'username': "",
-    'token': "",
-    'firstname': "",
-    'lastname': "",
-    'email': "",
-    'birthday': ""
-};
-
 application.mainModule = "/views/main/main";
 application.cssFile = "./app.css";
 application.start();
