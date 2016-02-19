@@ -4,6 +4,18 @@
 	margin-left: 5;
 }
 
+page{
+
+    background-color: #ffecb3;
+}
+
+    .main{
+        background-image: url("~/img/confetti2.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+
 /*.title {
     font-size: 30;
     horizontal-align: center;
@@ -23,15 +35,11 @@
 
 .IndieFlower {
     font-family: Idolwild;
-    font-size: 30;
-}
-
-page{
-	background-color: #e8eaf6;
+    font-size: 16;
 }
 
 .profile-btn{
-    font-size: 16;
+    font-size: 14;
     horizontal-align: center;
 /*    background-color: #2196f3;*/
 }
@@ -43,6 +51,23 @@ page{
 label{
 	color: #1a237e;
 	font-family: IndieFlower;
-	font-size: 20;
 }
 
+textfield{
+    height: 50;
+    width: 400;
+    font-style: italic;
+    font-size: 14;
+}
+
+#welcome-text{
+    font-size: 22;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20;
+}
+
+#logInButton{
+    display:block;
+    background-color: #3f51b5;
+}

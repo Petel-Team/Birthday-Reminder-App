@@ -1,0 +1,15 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ScrollView>
+        <StackLayout>
+            <TextField id="firstname" hint="First Name (5-10)" width="400" height="100"/>
+            <TextField id="lastname" hint="Last Name (5-10)" width="400" height="100"/>
+            <TextField id="ideas" hint="Ideas" width="400" height="100"/>
+            <Label text="Birthday"/>
+            <DatePicker id="birthday"/>
+            <Button id="takePictureButton" text="Take Picture"/>
+            <Image id="picture" stretch="none" horizontalAlignment="center"/>
+            <Button id="addFriendButton" text="Add Friend"/>
+            <Label id="label"/>
+        </StackLayout>
+    </ScrollView>
+</Page>

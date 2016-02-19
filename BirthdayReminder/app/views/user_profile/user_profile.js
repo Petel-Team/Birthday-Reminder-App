@@ -29,13 +29,13 @@ function pageLoaded(args) {
 
     takePictureButton.on("Tap", function(){
         cameraModule.takePicture().then(function(picture) {
-
-
             userPicture.imageSource = picture;
             var folder = fs.knownFolders.documents();
             var path = fs.path.join(folder.path, global.currUser.name + global.currUser.email + global.currUser.birthday + ".png");
             console.log(userPicture.imageSource.saveToFile(path,enums.ImageFormat.png));
+
             global.currUser.image = path;
+
             var updateUser = global.everlive.data('Custom_Users');
             updateUser.updateSingle({ Id: global.currUser.Id, 'image': path},
                 function(data){

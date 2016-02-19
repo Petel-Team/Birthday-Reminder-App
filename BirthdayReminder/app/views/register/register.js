@@ -4,6 +4,8 @@ var cameraModule = require("camera");
 var imageModule = require("ui/image");
 var fs = require("file-system");
 var enums = require("ui/enums");
+var dialogs = require("ui/dialogs");
+
 function pageLoaded(args) {
     var page = args.object;
     var self = this;
@@ -28,17 +30,27 @@ function pageLoaded(args) {
         var emailValue = email.text.trim();
         var birthday = datepicker.month + "." + datepicker.day + "." + datepicker.year;
 
-        if (usernameValue.length >= 5 && usernameValue.length <= 10 && emailValue.length >0 ) {
+        if (usernameValue.length >= 2 && usernameValue.length <= 10 && emailValue.length >0 ) {
             cameraModule.takePicture().then(function (picture) {
-                userPicture.imageSource = picture;
+                userPicture.imageSource = picture;                
                 var folder = fs.knownFolders.documents();
                 var path = fs.path.join(folder.path, usernameValue + emailValue + birthday + ".png");
                 console.log(userPicture.imageSource.saveToFile(path, enums.ImageFormat.png));
                 self.imagePath = path;
+
+               // global.currUser.image = path;
             });
         }
         else {
-            label.text = "Fill in all fields before take picture!";
+            //label.text = "Fill in all fields before take picture!";
+            var title = 'Registration';
+            var msg = 'You must fill all other fields before taking a picture!';
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
     });
     registerButton.on("Tap", function () {
@@ -52,22 +64,64 @@ function pageLoaded(args) {
         //var userPictureFile = userPicture.imageSource;
 
         if (usernameValue.length < 5 || usernameValue.length > 10) {
-            label.text = "Username must be between 5 and 10 characters!";
+            var title = 'Invalid username';
+            var msg = 'Username must be between 5 and 10 characters!';
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
         else if (passwordValue.length < 5 || passwordValue.length > 10) {
-            label.text = "Password must be between 5 and 10 characters!";
+            var title = 'Invalid password';
+            var msg = 'Password must be between 5 and 10 characters!';
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
         else if (passwordValue != confirmPasswordValue) {
-            label.text = "Passwords do not match!";
+            var title = 'Invalid password';
+            var msg = "Passwords do not match!";
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
-        else if (firstNameValue.length < 5 || firstNameValue.length > 10) {
-            label.text = "First Name must be between 5 and 10 characters!";
+        else if (firstNameValue.length < 2 || firstNameValue.length > 10) {
+            var title = 'Invalid name';
+            var msg = "First name must be between 2 and 10 characters!";
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
-        else if (lastNameValue.length < 5 || lastNameValue.length > 10) {
-            label.text = "Last Name must be between 5 and 10 characters!";
+        else if (lastNameValue.length < 2 || lastNameValue.length > 10) {
+            var title = 'Invalid name';
+            var msg = "Last name must be between 2 and 10 characters!";
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
-        else if (emailValue.length == 0) {
-            label.text = "Email cannot be empty!";
+        else if (emailValue.length == 0 || emailValue.indexOf('@') < 0) {
+            var title = 'Invalid e-mail';
+            var msg = "E-mail must be a valid e-mail address!";
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
         else {
             var token = usernameValue + usernameValue + usernameValue;
@@ -128,6 +182,16 @@ function pageLoaded(args) {
                                             db.close;
                                         }
                                     });
+                                    
+
+                                    var title = 'Registration';
+                                    var msg = "You have registered successfully!";
+                                    
+                                    dialogs.alert({
+                                          title: title,
+                                          message: msg                                          
+                                    })
+
                                     global.currUser.Id = data['result']['Id'];
                                     frame.topmost().navigate("./views/user_profile/user_profile");
                                 },
@@ -137,7 +201,17 @@ function pageLoaded(args) {
                         }
                         else {
                             console.log("EXISTS");
-                            label.text = "Username exists!"
+
+                            var title = 'Registration';
+                            var msg = "The username already exists!";
+                            var okBtnTxt = "Try again";       
+
+                            dialogs.alert({
+                                          title: title,
+                                          message: msg,
+                                          okButtonText: okBtnTxt                                          
+                                    })
+                            //label.text = "Username exists!"
                         }
                     },
                     function (err) {

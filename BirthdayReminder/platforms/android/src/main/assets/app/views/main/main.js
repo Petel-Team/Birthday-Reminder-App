@@ -4,6 +4,10 @@ var view = require("ui/core/view");
 function pageLoaded(args) {
     var page = args.object;
 
+    var text = "Welcome to Birthday Reminder!\nPlease log in or register..";
+    var textView = page.getViewById("welcome-text");
+    textView.text = text;
+
     var glCurrUser = global.everlive.data('Custom_Users');
     var filter = {
         'Id': "67d3b5c0-d64a-11e5-a423-df559cec2fd1"
@@ -24,6 +28,7 @@ function pageLoaded(args) {
     var label = view.getViewById(page,"label");
 
     logInButton.on("Tap",function() {
+        //page.css = "#logInButton { background-color: #9fa8da; }";
         // var filter = {
         //     'username': username.text,
         //     'password': password.text
