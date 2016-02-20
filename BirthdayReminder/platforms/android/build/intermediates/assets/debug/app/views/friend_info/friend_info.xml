@@ -1,0 +1,24 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ScrollView>
+        <StackLayout>
+            <Image src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/anonymous-512.png"
+                   stretch="none" horizontalAlignment="center" id="userpicture"/>
+            <Button text="pick a picture" tap="" class="profile-btn" id="takePictureButton"/>
+
+            <GridLayout rows="40, 40, 40, 40" columns="*, *" horizontalAlignment="center">
+                <Label text="First Name:" row="0" col="0"/>
+                <Label id="firstname" text="John" row="0" col="1"/>
+
+                <Label text="Last Name:" row="1" col="0"/>
+                <Label id="lastname" text="Doe" row="1" col="1"/>
+
+                <Label text="Birthday:" row="2" col="0"/>
+                <Label id="birthday" text="01.01.1990" row="2" col="1"/>
+
+                <Label text="Ideas:" row="3" col="0"/>
+                <Label id="ideas" text="Ideas" row="3" col="1"/>
+            </GridLayout>
+            <Button text="Delete friend" class="profile-btn" id="deleteFriendButton"/>
+        </StackLayout>
+    </ScrollView>
+</Page>

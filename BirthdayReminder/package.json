@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "everlive-sdk": "^1.6.6",
+    "nativescript-geolocation": "0.0.8",
     "nativescript-google-maps-sdk": "^1.2.2",
     "nativescript-sqlite": "^1.0.7",
     "tns-core-modules": "1.5.2"
