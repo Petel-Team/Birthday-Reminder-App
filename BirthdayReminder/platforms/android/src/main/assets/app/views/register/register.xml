@@ -7,10 +7,6 @@
         <TextField id="firstname" hint="First Name (2-10)" />
         <TextField id="lastname" hint="Last Name (2-10)" />
         <TextField id="email" hint="Email" />
-        <Label text="Birthday"/>
-        <DatePicker id="birthday"/>
-        <Button id="takePictureButton" text="Take Picture"/>
-        <Image id="picture" stretch="none" horizontalAlignment="center"/>
         <Button id="registerButton" text="Register"/>
         <Label id="label"/>
     </StackLayout>

@@ -1,9 +1,9 @@
 var  frame = require('ui/frame');
 var view = require("ui/core/view");
 var cameraModule = require("camera");
-var imageSource = require("image-source");
 var fs = require("file-system");
 var enums = require("ui/enums");
+var dialogs = require("ui/dialogs");
 function pageLoaded(args) {
     var page = args.object;
 
@@ -14,6 +14,7 @@ function pageLoaded(args) {
     var birthday = view.getViewById(page, "birthday");
     var viewFriendsButton = view.getViewById(page, "viewFriendsButton");
     var takePictureButton = view.getViewById(page, "takePictureButton");
+    var changeBirthDay = view.getViewById(page, "changeBirthDay");
     var userPicture = view.getViewById(page, "userpicture");
 
     username.text = global.currUser.username;
@@ -31,7 +32,7 @@ function pageLoaded(args) {
         cameraModule.takePicture().then(function(picture) {
             userPicture.imageSource = picture;
             var folder = fs.knownFolders.documents();
-            var path = fs.path.join(folder.path, global.currUser.name + global.currUser.email + global.currUser.birthday + ".png");
+            var path = fs.path.join(folder.path, global.currUser.Id + ".png");
             console.log(userPicture.imageSource.saveToFile(path,enums.ImageFormat.png));
 
             global.currUser.image = path;
@@ -44,6 +45,29 @@ function pageLoaded(args) {
                 function(error){
                     console.log(JSON.stringify(error));
                 });
+        });
+    });
+
+    changeBirthDay.on("Tap",function(){
+        dialogs.prompt({
+            title: "Change Birthday",
+            message: "Enter your birthday (1.1.1990)",
+            okButtonText: "Change",
+            cancelButtonText: "Cancel",
+            inputType: dialogs.inputType.text
+        }).then(function (r) {
+            birthday.text = r.text;
+
+            var updateUser = global.everlive.data('Custom_Users');
+            updateUser.updateSingle({ Id: global.currUser.Id, 'birthday': r.text},
+                function(data){
+                    console.log(JSON.stringify(data));
+                },
+                function(error){
+                    console.log(JSON.stringify(error));
+                });
+
+            console.log("Dialog result: " + r.result + ", text: " + r.text);
         });
     });
 }

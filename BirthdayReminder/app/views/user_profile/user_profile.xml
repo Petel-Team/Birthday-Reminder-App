@@ -21,6 +21,7 @@
                 <Label text="Birthday:" row="4" col="0"/>
                 <Label id="birthday" text="01.01.1990" row="4" col="1"/>
             </GridLayout>
+            <Button id="changeBirthDay" text="Change Birthday" class="profile-btn"/>
             <Button text="View Friends" id="viewFriendsButton" class="profile-btn"/>
             <Button text="logout" tap="" class="profile-btn"/>
         </StackLayout>
