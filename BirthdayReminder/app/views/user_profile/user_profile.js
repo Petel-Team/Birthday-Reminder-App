@@ -14,6 +14,7 @@ function pageLoaded(args) {
     var birthday = view.getViewById(page, "birthday");
     var viewFriendsButton = view.getViewById(page, "viewFriendsButton");
     var takePictureButton = view.getViewById(page, "takePictureButton");
+    var goToMapsButton = view.getViewById(page, "goToMapsButton");
     var changeBirthDay = view.getViewById(page, "changeBirthDay");
     var userPicture = view.getViewById(page, "userpicture");
 
@@ -69,6 +70,10 @@ function pageLoaded(args) {
 
             console.log("Dialog result: " + r.result + ", text: " + r.text);
         });
+    });
+
+    goToMapsButton.on("Tap", function(){
+        frame.topmost().navigate("./views/google_maps/google_maps");
     });
 }
 exports.pageLoaded = pageLoaded;

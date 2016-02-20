@@ -23,6 +23,7 @@
             </GridLayout>
             <Button id="changeBirthDay" text="Change Birthday" class="profile-btn"/>
             <Button text="View Friends" id="viewFriendsButton" class="profile-btn"/>
+            <Button text="Maps" id="goToMapsButton" class="profile-btn"/>
             <Button text="logout" tap="" class="profile-btn"/>
         </StackLayout>
     </ScrollView>
