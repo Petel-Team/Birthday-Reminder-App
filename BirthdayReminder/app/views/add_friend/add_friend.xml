@@ -1,15 +1,15 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+    <ActionBar title="Add friend" />
     <ScrollView>
         <StackLayout>
-            <TextField id="firstname" hint="First Name (5-10)" width="400" height="100"/>
-            <TextField id="lastname" hint="Last Name (5-10)" width="400" height="100"/>
-            <TextField id="ideas" hint="Ideas" width="400" height="100"/>
-            <Label text="Birthday"/>
-            <DatePicker id="birthday"/>
-            <Button id="takePictureButton" text="Take Picture"/>
-            <Image id="picture" stretch="none" horizontalAlignment="center"/>
-            <Button id="addFriendButton" text="Add Friend"/>
-            <Label id="label"/>
+            <TextField id="firstname" hint="First Name (2-10)" />
+            <TextField id="lastname" hint="Last Name (2-10)" />
+            <TextField id="ideas" hint="Ideas" />
+            <Label text="Birthday" id="birthday" class="addFriendBirthday" />
+            <DatePicker id="birthday" />
+            <Image id="picture" src="http://images.androidworld.nl/wp-content/uploads/Androidify-voorbeeld-300x300.png" stretch="aspectFit" horizontalAlignment="center" />
+            <Button id="takePictureButton" text="Take Picture" />
+            <Button id="addFriendButton" text="Add Friend" />
         </StackLayout>
     </ScrollView>
 </Page>

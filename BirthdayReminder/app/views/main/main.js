@@ -1,5 +1,6 @@
 var  frame = require('ui/frame');
 var view = require("ui/core/view");
+var gestures = require("ui/gestures");
 
 function pageLoaded(args) {
     var page = args.object;
@@ -27,6 +28,7 @@ function pageLoaded(args) {
     var registerButton = view.getViewById(page, "registerButton");
     var label = view.getViewById(page,"label");
 
+
     logInButton.on("Tap",function() {
         //page.css = "#logInButton { background-color: #9fa8da; }";
         // var filter = {
@@ -39,7 +41,7 @@ function pageLoaded(args) {
         //     .then(function(data) {
         //         if(data["count"] == "1"){
         //             console.log("success");
-                    frame.topmost().navigate("./views/user_profile/user_profile");
+                    frame.topmost().navigate("./views/friends/friends");
     //             }
     //             else{
     //                 label.text="Username or Password are wrong!"

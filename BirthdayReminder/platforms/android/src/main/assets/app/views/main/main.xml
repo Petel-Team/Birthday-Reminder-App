@@ -8,8 +8,8 @@
     	
         <TextField id="username" hint="Username" />
         <TextField id="password" hint="Password" />
-        <Button id="logInButton" text="Log In" />
-        <Button id="registerButton" text="Register" />
+        <Button id="logInButton" text="Log In" class="lbl-common"/>
+        <Button id="registerButton" text="Register" class="lbl-common"/>
         <Label id="label"/>
     </StackLayout>
 </Page>

@@ -4,6 +4,8 @@ var cameraModule = require("camera");
 var imageModule = require("ui/image");
 var fs = require("file-system");
 var enums = require("ui/enums");
+var dialogs = require("ui/dialogs");
+
 function pageLoaded(args) {
     var page = args.object;
     var self = this;
@@ -18,14 +20,14 @@ function pageLoaded(args) {
     var userPicture = view.getViewById(page, "picture");
     datepicker.month = 1;
     datepicker.day = 1;
-    datepicker.year = 1950;
+    datepicker.year = 1980;
 
     takePictureButton.on("Tap", function () {
         var firstNameValue = firstName.text.trim();
         var lastNameValue = lastName.text.trim();
         var birthday = datepicker.month + "." + datepicker.day + "." + datepicker.year;
 
-        if (firstNameValue.length >= 5 && lastNameValue.length <= 10) {
+        if (firstNameValue.length >= 2 && lastNameValue.length >= 2) {
             cameraModule.takePicture().then(function (picture) {
                 userPicture.imageSource = picture;
                 var folder = fs.knownFolders.documents();
@@ -55,13 +57,34 @@ function pageLoaded(args) {
         //var userPictureFile = userPicture.imageSource;
 
         if (firstNameValue.length < 2 || firstNameValue.length > 10) {
-            label.text = "First Name must be between 5 and 10 characters!";
+            var title = 'Add friend';
+            var msg = 'First name must be between 2 and 10 characters!';
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
         else if (lastNameValue.length < 2 || lastNameValue.length > 10) {
-            label.text = "Last Name must be between 5 and 10 characters!";
+            var title = 'Add friend';
+            var msg = 'Last name must be between 2 and 10 characters!';
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
         else if (ideasValue.length == 0) {
-            label.text = "Ideas cannot be empty!";
+            var title = 'Add friend';
+            var msg = 'No ideas? Come on!';
+            var okBtnTxt = "Try again";
+            dialogs.alert({
+                  title: title,
+                  message: msg,
+                  okButtonText: okBtnTxt
+            })
         }
         else {
             var filter = {
@@ -87,12 +110,12 @@ function pageLoaded(args) {
                                 function (data) {
                                     // console.log(data);
 
-                                    // var title = 'Add friend';
-                                    // var msg = 'You successfully added a new friend!';
-                                    // dialogs.alert({
-                                    //       title: title,
-                                    //       message: msg
-                                    // })
+                                    var title = 'Add friend';
+                                    var msg = 'You successfully added a new friend!';
+                                    dialogs.alert({
+                                          title: title,
+                                          message: msg
+                                    })
 
                                     global.selectedFriend.Id = data['result']['Id'];
                                     frame.topmost().navigate("./views/friends/friends");

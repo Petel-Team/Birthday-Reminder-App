@@ -12,6 +12,7 @@ function getAndroidLocationManager() {
     if (!androidLocationManager) {
         androidLocationManager = appModule.android.context.getSystemService(android.content.Context.LOCATION_SERVICE);
     }
+    //console.log(androidLocationManager);
     return androidLocationManager;
 }
 function createLocationListener() {
@@ -123,8 +124,14 @@ var LocationMonitor = (function () {
 exports.LocationMonitor = LocationMonitor;
 function isEnabled() {
     var criteria = new android.location.Criteria();
+    //console.log(criteria);
+    //console.dir(criteria);
     criteria.setAccuracy(android.location.Criteria.ACCURACY_COARSE);
+    //console.log("gps:" + getAndroidLocationManager().isProviderEnabled('GPS_PROVIDER'));
+    //console.log("netw:" + getAndroidLocationManager().isProviderEnabled('NETWORK_PROVIDER'));
+        
     var enabledProviders = getAndroidLocationManager().getProviders(criteria, true);
+    //console.log(enabledProviders);
     return (enabledProviders.size() > 0) ? true : false;
 }
 exports.isEnabled = isEnabled;

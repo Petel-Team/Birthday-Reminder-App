@@ -6,8 +6,8 @@
 
 page{
 
-    background-color: #ffe082;
-   /* #ffebee*/
+    background-color: #ffe0b2;
+   /* #ffebee   #ffe082 */
 }
 
     .main{
@@ -18,41 +18,20 @@ page{
     }
 
 ActionBar {
-    background-color: #673ab7;
+    background-color: #ff5722;
     color: white;
 }
 
 Image{
-    width:100;
-    height:100;
-    resize: 
-}
-/*.title {
-    font-size: 30;
-    horizontal-align: center;
-    margin: 20;
-}*/
-
-/*button {
-    font-size: 42;
-    horizontal-align: center;
-}*/
-
-/*.message {
-    font-size: 20;
-    color: #2#84848;;
-    horizontal-align: center;
-}*/
-
-.IndieFlower {
-    font-family: Idolwild;
-    font-size: 16;
+    display: block;
+    width: 200;
+    height: 150;
 }
 
 .profile-btn{
     font-size: 14;
     horizontal-align: center;
-/*    background-color: #2196f3;*/
+    /*    background-color: #2196f3;*/
 }
 
 .profile-label{
@@ -68,7 +47,8 @@ label{
 textfield{
     height: 50;
     width: 400;
-    font-style: italic;
+    font-style:italic;
+    font-family: ArchitectsDaughter;
     font-size: 16;
 }
 
@@ -83,3 +63,43 @@ textfield{
     display:block;
     background-color: #3f51b5;
 }*/
+
+.editBtn{
+    font-size: 20;
+    height: 40;
+    width: 40;
+    font-family: FontAwesome;
+}
+
+.fields{
+    font-family:ArchitectsDaughter;
+}
+
+.friend{
+    margin: 2,2,2,2 ;
+    width:300;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.friendImg{
+    width: 100;
+    height: 75;
+    margin: 5, 5, 5, 5 ;
+}
+
+.addFriendButton{
+    height: 50;
+    margin: 5, 5, 5, 5 ;
+}
+
+.addFriendBirthday{
+    height: 50;
+    width: 400;
+    color: gray;
+    font-style:italic;
+    font-family: ArchitectsDaughter;
+    font-size: 16;
+}

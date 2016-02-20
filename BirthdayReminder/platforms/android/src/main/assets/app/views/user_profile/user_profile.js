@@ -4,8 +4,19 @@ var cameraModule = require("camera");
 var fs = require("file-system");
 var enums = require("ui/enums");
 var dialogs = require("ui/dialogs");
+var gestures = require("ui/gestures");
+
 function pageLoaded(args) {
     var page = args.object;
+
+    var sv = view.getViewById(page, "sv-profile");
+
+    sv.on(gestures.GestureTypes.swipe, function (args) {
+        if(args.direction === 1){
+         console.log("Page Swipe Direction: " + args.direction);
+        frame.topmost().navigate("./views/friends/friends");
+        }
+    });
 
     var username = view.getViewById(page, "username");
     var firstName = view.getViewById(page, "firstname");
@@ -25,9 +36,9 @@ function pageLoaded(args) {
     birthday.text = global.currUser.birthday;
     userPicture.src = global.currUser.image;
 
-    viewFriendsButton.on("Tap",function(){
-        frame.topmost().navigate("./views/friends/friends");
-    });
+    // viewFriendsButton.on("Tap",function(){
+    //     frame.topmost().navigate("./views/friends/friends");
+    // });
 
     takePictureButton.on("Tap", function(){
         cameraModule.takePicture().then(function(picture) {
