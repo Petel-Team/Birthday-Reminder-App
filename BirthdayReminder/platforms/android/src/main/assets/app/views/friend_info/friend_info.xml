@@ -1,8 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
     <ScrollView>
         <StackLayout id="container">
-            <Image src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/anonymous-512.png"
-                   stretch="none" horizontalAlignment="center" id="userpicture"/>
+            <Image src="" stretch="aspectFit" horizontalAlignment="center" id="userpicture"/>
             <Button text="pick a picture" tap="" class="profile-btn" id="takePictureButton"/>
 
             <GridLayout rows="40, 40, 40, 40" columns="*, *" horizontalAlignment="center">

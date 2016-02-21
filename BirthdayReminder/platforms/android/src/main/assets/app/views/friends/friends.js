@@ -5,7 +5,10 @@ var observableArrayModule = require('data/observable-array');
 var gestures = require("ui/gestures");
 var dialogs = require("ui/dialogs");
 
+
+
 function pageLoaded(args) {
+
     var page = args.object;
     var defaultImg = "http://images.androidworld.nl/wp-content/uploads/Androidify-voorbeeld-300x300.png";
 
@@ -31,16 +34,27 @@ function pageLoaded(args) {
     backEndUserFriends.get(filter)
         .then(function(data) {
                 self.friendsArray.push(data['result']);
+
+                var number = self.friendsArray.length;
+                console.log("Getting data " + self.friendsArray.length);
+
+                for (var i = 0; i < number; i++) {
+                    console.log(self.friendsArray.getItem(i).image);
+
+                    if (self.friendsArray.getItem(i).image == undefined) {
+                        console.log('true')
+                        self.friendsArray.getItem(i).image = "~/img/Alien-256.png";
+                    }
+                }
+
+
                 listView.refresh();
             },
             function(error) {
                 console.dir(JSON.stringify(error));
             });
 
-    listView.on(listViewModule.ListView.itemTapEvent, function(args) {
-        global.selectedFriend = self.friendsArray.getItem(args.index);
-        frame.topmost().navigate("./views/friend_info/friend_info");
-    });
+
 
     listView.on(gestures.GestureTypes.swipe, function(args) {
         if (args.direction === 2) {
@@ -48,6 +62,13 @@ function pageLoaded(args) {
             frame.topmost().navigate("./views/user_profile/user_profile");
         }
     });
+
+    listView.on(listViewModule.ListView.itemTapEvent, function(args) {
+        global.selectedFriend = self.friendsArray.getItem(args.index);
+        frame.topmost().navigate("./views/friend_info/friend_info");
+    });
+
+
 
     listView.on(gestures.GestureTypes.longPress, function(event) {
         var selectedItem = self.friendsArray.getItem(args.index);
