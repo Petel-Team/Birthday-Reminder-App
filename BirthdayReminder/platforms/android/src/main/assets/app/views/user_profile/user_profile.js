@@ -36,6 +36,7 @@ function pageLoaded(args) {
     birthday.text = global.currUser.birthday;
     userPicture.src = global.currUser.image;
 
+
     // viewFriendsButton.on("Tap",function(){
     //     frame.topmost().navigate("./views/friends/friends");
     // });

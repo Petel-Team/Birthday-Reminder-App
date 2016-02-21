@@ -2,74 +2,67 @@
 <items version="2" >
 
     <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\nativescript-geolocationnativescript-google-maps-sdk\debug\classes-c570cf24c3b60c99f33ba8a5645452a0e59b03a2.jar" />
-    </item>
-    <item
-        jar="D:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-e52df0fac2d7439984fbb695cd902b1870dbaf57.jar" />
-    </item>
-    <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\nativescript-geolocationnativescript-google-maps-sdk\debug\classes-4d0e035fa2a6852dd937fbf47e0d880b698169c7.jar" />
-    </item>
-    <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\nativescript-geolocationnativescript-google-maps-sdk\debug\classes-27b1e8de9e5447d8611a060eea5ea57d8430092f.jar" />
-    </item>
-    <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\nativescript-geolocationnativescript-google-maps-sdk\debug\classes-ded4162bde2c6fb0834e7f8311b44018e0281d13.jar" />
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\classes-417d4ad73ce22c7797cf2476e325bcafdeefed7c.jar" />
     </item>
     <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\nativescript-geolocationnativescript-google-maps-sdk\debug\classes-c2b9da9ea1723c457b9f75cc1d435af5682f609e.jar" />
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\classes-84f3bb717bc7e8913b21d3e546886fdaf2e973ad.jar" />
     </item>
     <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\nativescript-geolocationnativescript-google-maps-sdk\debug\internal_impl-23.0.0-45a2bbc3653c07bc9314f21483b0861c3c771e3a.jar" />
-    </item>
-    <item
-        jar="D:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\nativescript-google-maps-sdk\debug\support-annotations-23.0.0-1369a927f8c2e3190d889b26885f7a6e9aa5e1d3.jar" />
-    </item>
-    <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\nativescript.jar"
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\nativescript.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e49ee2301dce2f85edd44f634fd45ad92df9e00a">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\nativescript-345ccf851f839dff54ab1bf8b3eadb68cdc07cfa.jar" />
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\nativescript-fc355813f65c97f8de257b63cd543949455557c4.jar" />
     </item>
     <item
-        jar="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\widgets.jar"
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\internal_impl-23.0.0-14030360175bd4ea347d73a39d9fe8cb2e57b165.jar" />
+    </item>
+    <item
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\classes-5c5c8eef8b6122c9c43d3b62aa13f59b81331a87.jar" />
+    </item>
+    <item
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\classes-d987a6d8bbba501789490070a7f304a2881680c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\PackMan\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\support-annotations-23.0.0-7f7ddeddd83d50063ad8f0f353cd6e05c2c5b74e.jar" />
+    </item>
+    <item
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\widgets.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="ff3c62a8eb22f0111b882125ad1579dc6273fd90">
-        <dex dex="D:\NativeScript\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\widgets-4fb6dbcbb0635c0741ced1f0c844b1042eb10648.jar" />
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\widgets-368eaee1d2d0dfe98751d6ce1bec2f9930ddf305.jar" />
+    </item>
+    <item
+        jar="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\NativescriptAppResourcesnativescript-google-maps-sdk\debug\classes-b483c0a33d4b2aac66b13b26b886959c8cb22aa7.jar" />
     </item>
 
 </items>
