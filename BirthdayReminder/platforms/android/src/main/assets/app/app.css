@@ -61,10 +61,10 @@ textfield {
 }
 
 
-/*#logInButton{
+#logInButton{
     display:block;
     background-color: #3f51b5;
-}*/
+}
 
 .editBtn {
     font-size: 20;
@@ -105,4 +105,9 @@ textfield {
     font-style: italic;
     font-family: ArchitectsDaughter;
     font-size: 16;
+}
+
+.ellipse{
+    background-color: #ff5722;
+    text-align: center;
 }

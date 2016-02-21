@@ -3,7 +3,7 @@
 		<!-- gift icon = &#xf06b  -->
     	<!-- <NavigationButton icon="res://ic_menu" tap="showSlideout" /> -->
 	</ActionBar>
-    <StackLayout verticalAlignment="center">
+    <StackLayout verticalAlignment="center" id="canvas">
     	<Label text="{{text}}" textWrap="true" id="welcome-text" />
     	
         <TextField id="username" hint="Username" />
