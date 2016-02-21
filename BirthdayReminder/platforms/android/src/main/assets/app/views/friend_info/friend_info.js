@@ -91,7 +91,7 @@ function pageLoaded(args) {
                     opacity: 1,
                     translate: {x: 0, y: 0},
                     duration: 1000
-                    
+
                 });
             });
         }
