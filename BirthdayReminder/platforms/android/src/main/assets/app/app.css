@@ -1,105 +1,108 @@
-﻿button, label, image{
-	margin-top: 10;
-	margin-right: 5;
-	margin-left: 5;
+﻿button,
+label,
+image {
+    margin-top: 10;
+    margin-right: 5;
+    margin-left: 5;
 }
 
-page{
-
+page {
     background-color: #ffe0b2;
-   /* #ffebee   #ffe082 */
+    /* #ffebee   #ffe082 */
 }
 
-    .main{
-        background-image: url("~/img/confetti2.png");
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
-    }
+.main {
+    background-image: url("~/img/confetti2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
 
 ActionBar {
     background-color: #ff5722;
     color: white;
 }
 
-Image{
+Image {
     display: block;
     width: 200;
     height: 150;
 }
 
-.profile-btn{
+.profile-btn {
     font-size: 14;
     horizontal-align: center;
     /*    background-color: #2196f3;*/
 }
 
-.profile-label{
-	horizontal-align: center;
+.profile-label {
+    horizontal-align: center;
 }
 
-label{
-	color: #1a237e;
-    font-size:18;
-	font-family: IndieFlower;
+label {
+    color: #1a237e;
+    font-size: 18;
+    font-family: IndieFlower;
 }
 
-textfield{
+textfield {
     height: 50;
     width: 400;
-    font-style:italic;
+    font-style: italic;
     font-family: ArchitectsDaughter;
     font-size: 16;
 }
 
-#welcome-text{
+#welcome-text {
     font-size: 24;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20;
 }
 
+
 /*#logInButton{
     display:block;
     background-color: #3f51b5;
 }*/
 
-.editBtn{
+.editBtn {
     font-size: 20;
     height: 40;
     width: 40;
     font-family: FontAwesome;
 }
 
-.fields{
-    font-family:ArchitectsDaughter;
+.fields {
+    font-family: ArchitectsDaughter;
+    font-size: 16;
 }
 
-.friend{
-    margin: 2,2,2,2 ;
-    width:300;
+.friend {
+    margin: 2, 2, 2, 2;
+    width: 300;
 }
 
-.name{
+.name {
     font-weight: bold;
 }
 
-.friendImg{
+.friendImg {
     width: 100;
     height: 75;
-    margin: 5, 5, 5, 5 ;
+    margin: 5, 5, 5, 5;
 }
 
-.addFriendButton{
+.addFriendButton {
     height: 50;
-    margin: 5, 5, 5, 5 ;
+    margin: 5, 5, 5, 5;
 }
 
-.addFriendBirthday{
+.addFriendBirthday {
     height: 50;
     width: 400;
     color: gray;
-    font-style:italic;
+    font-style: italic;
     font-family: ArchitectsDaughter;
     font-size: 16;
 }
