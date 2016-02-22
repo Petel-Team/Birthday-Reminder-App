@@ -7,11 +7,6 @@ global.everlive = new Everlive({
     scheme: "https"
 });
 
-new global.Sqlite("user_token.db", function(err, db) {
-            db.execSQL("Create table user_token_table (token varchar(255))");
-            db.version(1);
-});
-
 application.mainModule = "/views/main/main";
 application.cssFile = "./app.css";
 application.start();

@@ -5,7 +5,7 @@
             <TextField id="firstname" hint="First Name (2-10)" />
             <TextField id="lastname" hint="Last Name (2-10)" />
             <TextField id="ideas" hint="Ideas" />
-            <Label text="Birthday" id="birthday" class="addFriendBirthday" />
+            <Label text="Birthday" id="birthdayLbl" class="addFriendBirthday" />
             <DatePicker id="birthday" />
             <Image id="picture" src="~/img/Alien-256.png" stretch="aspectFit" horizontalAlignment="center" />
             <Button id="takePictureButton" text="Take Picture" class="btn-fr-profile" />

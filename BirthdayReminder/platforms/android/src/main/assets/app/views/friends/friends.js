@@ -42,6 +42,7 @@ function pageLoaded(args) {
 
                 var number = self.friendsArray.length;
                 for (var i = 0; i < number; i++) {
+                    console.log(self.friendsArray.getItem(i).image);
                     if (self.friendsArray.getItem(i).image == undefined) {
                         self.friendsArray.getItem(i).image = "~/img/Alien-256.png";
                     }

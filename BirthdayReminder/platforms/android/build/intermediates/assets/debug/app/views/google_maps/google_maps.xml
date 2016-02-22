@@ -1,0 +1,14 @@
+<Page
+        xmlns="http://www.nativescript.org/tns.xsd"
+        xmlns:maps="nativescript-google-maps-sdk">
+        
+<!--     <StackLayout>
+        <Button text="enable Location" tap="enableLocationTap"/>
+    </StackLayout> -->
+    <GridLayout>
+        <maps:mapView latitude="{{ latitude }}" longitude="{{ longitude }}"
+                      zoom="{{ zoom }}" mapReady="OnMapReady"
+                      markerSelect="onMarkerSelect"
+                      cameraChanged="onCameraChanged"/>
+    </GridLayout>
+</Page>
