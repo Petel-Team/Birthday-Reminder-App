@@ -1,14 +1,13 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
     <ScrollView>
-    <StackLayout>
+    <StackLayout verticalAlignment="center">
         <TextField id="username" hint="Username (5-10)"/>
         <TextField id="password" hint="Password (5-10)"/>
         <TextField id="confirmPassword" hint="Confirm Password (5-10)"/>
         <TextField id="firstname" hint="First Name (2-10)" />
         <TextField id="lastname" hint="Last Name (2-10)" />
         <TextField id="email" hint="Email" />
-        <Button id="registerButton" text="Register"/>
-        <Label id="label"/>
+        <Button id="registerButton" text="Register" class="btn-main"/>
     </StackLayout>
     </ScrollView>
 </Page>

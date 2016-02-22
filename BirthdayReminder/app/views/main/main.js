@@ -3,6 +3,7 @@ var view = require("ui/core/view");
 var gestures = require("ui/gestures");
 var labelModule = require("ui/label")
 var colorModule = require("color");
+var dialogs = require("ui/dialogs");
 
 function pageLoaded(args) {
     var page = args.object;
@@ -30,48 +31,77 @@ function pageLoaded(args) {
     var registerButton = view.getViewById(page, "registerButton");
     var label = view.getViewById(page, "label");
 
-    logInButton.backgroundColor = "#3f51b5";
     logInButton.on("Tap", function() {
-        //page.css = "#logInButton { background-color: #9fa8da; }";
-        // var filter = {
-        //     'username': username.text,
-        //     'password': password.text
-        // };
-        // var backendUsers = global.everlive.data('Custom_Users');
-
-        // backendUsers.get(filter)
-        //     .then(function(data) {
-        //         if(data["count"] == "1"){
-        //             console.log("success");
         logInButton.animate({
-                backgroundColor: new colorModule.Color("#3f51b5"),
                 opacity: 0.7,
                 scale: { x: 1.02, y: 1.02 },
                 duration: 300
             }).then(function() {
                 return logInButton.animate({
-                    backgroundColor: new colorModule.Color("#3f51b5"),
-                    opacity: 1.0,                    
+                    opacity: 1.0,
                     scale: { x: 0.98, y: 0.98 },
-                    duration: 300
+                    duration: 150
                 });
             })
             .then(function() {
-                frame.topmost().navigate("./views/friends/friends");
+                var usernameValue = username.text.trim();
+                var passwordValue = password.text.trim()
+                if (usernameValue.length > 0 && passwordValue.length > 0) {
+
+                    var glCurrUser = global.everlive.data('Custom_Users');
+                    var filter = {
+                        'username': usernameValue,
+                        'password': passwordValue
+                    };
+
+                    glCurrUser.get(filter)
+                        .then(function(data) {
+                                if (data['count'] == '1') {
+                                    global.currUser = data['result'][0];
+                                    frame.topmost().navigate("./views/friends/friends");
+                                } else {
+                                    var title = 'Log in';
+                                    var msg = 'Username and/or password do not exist!';
+                                    var okBtnTxt = "Try again";
+                                    dialogs.alert({
+                                        title: title,
+                                        message: msg,
+                                        okButtonText: okBtnTxt
+                                    })
+                                }
+                            },
+                            function(error) {
+                                console.dir(error);
+                            });
+
+                } else {
+                    var title = 'Log in';
+                    var msg = 'Username and/or password do not exist!';
+                    var okBtnTxt = "Try again";
+                    dialogs.alert({
+                        title: title,
+                        message: msg,
+                        okButtonText: okBtnTxt
+                    })
+                }
             });
-            // frame.topmost().navigate("./views/friends/friends");
-            //             }
-            //             else{
-            //                 label.text="Username or Password are wrong!"
-            //             }
-            //     },
-            //         function(err) {
-            //         console.log(JSON.stringify(err));
-            //     });
     });
 
     registerButton.on("Tap", function() {
-        frame.topmost().navigate("./views/register/register");
+        registerButton.animate({
+                opacity: 0.7,
+                scale: { x: 1.02, y: 1.02 },
+                duration: 300
+            }).then(function() {
+                return registerButton.animate({
+                    opacity: 1.0,
+                    scale: { x: 0.98, y: 0.98 },
+                    duration: 150
+                });
+            })
+            .then(function() {
+                frame.topmost().navigate("./views/register/register");
+            });
     });
 }
 

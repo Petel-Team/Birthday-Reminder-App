@@ -4,6 +4,7 @@ image {
     margin-top: 10;
     margin-right: 5;
     margin-left: 5;
+    margin-bottom: 2;
 }
 
 page {
@@ -60,22 +61,75 @@ textfield {
     margin-bottom: 20;
 }
 
-
-#logInButton{
-    display:block;
+.btn-main {
+    display: block;
     background-color: #3f51b5;
+    width: 320;
+    height: 40;
+}
+
+.btn-common {
+    display: block;
+    background-color: #3f51b5;
+    color: white;
+    width: 320;
+    height: 40;
+    margin-bottom: 5;
+}
+
+.btn-delete {
+    display: block;
+    background-color: #ffe0b2;
+    vertical-align: bottom;
+    horizontal-align: right;
+}
+
+.btn-fr-profile {
+    display: block;
+    background-color: #e57373;
+    color: white;
+    width: 150;
+    height: 40;
+}
+
+.btn-profile {
+    display: block;
+    background-color: #3f51b5;
+    color: white;
+    width: 150;
+    height: 40;
 }
 
 .editBtn {
-    font-size: 20;
-    height: 40;
-    width: 40;
+    font-size: 25;
+    width: 50;
+    height: 50;
     font-family: FontAwesome;
+    background-color: #ffe0b2;
+    color: #3f51b5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile {
+    color: #e57373;
+}
+
+.btn-logout {
+    horizontal-align: right;
+    background-color: #ffe0b2;
+    height: 50;
+    width: 50;
+    margin-bottom: 0;
 }
 
 .fields {
     font-family: ArchitectsDaughter;
     font-size: 16;
+}
+
+.values {
+    horizontal-align: center;
 }
 
 .friend {
@@ -107,7 +161,7 @@ textfield {
     font-size: 16;
 }
 
-.ellipse{
+.ellipse {
     background-color: #ff5722;
     text-align: center;
 }

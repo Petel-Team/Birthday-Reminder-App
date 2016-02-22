@@ -1,15 +1,13 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="main">
 	<ActionBar title="Birthday Reminder">
-		<!-- gift icon = &#xf06b  -->
-    	<!-- <NavigationButton icon="res://ic_menu" tap="showSlideout" /> -->
 	</ActionBar>
     <StackLayout verticalAlignment="center" id="canvas">
     	<Label text="{{text}}" textWrap="true" id="welcome-text" />
     	
         <TextField id="username" hint="Username" />
         <TextField id="password" hint="Password" />
-        <Button id="logInButton" text="Log In" class="lbl-common"/>
-        <Button id="registerButton" text="Register" class="lbl-common"/>
+        <Button id="logInButton" text="Log In" class="btn-main"/>
+        <Button id="registerButton" text="Register" class="btn-main"/>
         <Label id="label"/>
     </StackLayout>
 </Page>
