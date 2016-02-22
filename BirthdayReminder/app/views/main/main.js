@@ -38,7 +38,7 @@ function pageLoaded(args) {
                 duration: 300
             }).then(function() {
                 return logInButton.animate({
-                    opacity: 1.0,
+                    opacity: 0.9,
                     scale: { x: 0.98, y: 0.98 },
                     duration: 150
                 });
@@ -94,7 +94,7 @@ function pageLoaded(args) {
                 duration: 300
             }).then(function() {
                 return registerButton.animate({
-                    opacity: 1.0,
+                    opacity: 0.9,
                     scale: { x: 0.98, y: 0.98 },
                     duration: 150
                 });
