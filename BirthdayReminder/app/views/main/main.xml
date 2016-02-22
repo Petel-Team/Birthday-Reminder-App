@@ -2,10 +2,9 @@
 	<ActionBar title="Birthday Reminder">
 	</ActionBar>
     <StackLayout verticalAlignment="center" id="canvas">
-    	<Label text="{{text}}" textWrap="true" id="welcome-text" />
-    	
+    	<Label text="{{text}}" textWrap="true" id="welcome-text" />	
         <TextField id="username" hint="Username" />
-        <TextField id="password" hint="Password" />
+        <TextField id="password" hint="Password" secure="true" />
         <Button id="logInButton" text="Log In" class="btn-main"/>
         <Button id="registerButton" text="Register" class="btn-main"/>
         <Label id="label"/>
