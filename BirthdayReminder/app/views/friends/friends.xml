@@ -1,6 +1,7 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
         <ActionBar title="Birthdays" />
         <GridLayout rows="*, 60" columns="*">
+             <Button text="Sort by birthday" id="sortByBdButton" row="1" col="0" class="btn-common"/>
                 <ListView items="{{items}}" id="friendsList" row="0" col="0">
                     <ListView.itemTemplate>
                         <StackLayout orientation="horizontal">

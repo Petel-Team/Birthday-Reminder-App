@@ -28,6 +28,11 @@ function pageLoaded(args) {
     var backEndUserFriends = global.everlive.data('Friends');
     var listView = page.getViewById("friendsList");
 
+    var sortByBdButton = view.getViewById(page, "sortByBdButton");
+    sortByBdButton.on("Tap", function() {
+        console.dir(self.friendsArray);
+    });
+
     var addFriendButton = view.getViewById(page, "addFriendButton");
     listView.items = this.friendsArray;
 
