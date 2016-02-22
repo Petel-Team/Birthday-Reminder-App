@@ -28,6 +28,7 @@ function pageLoaded(args) {
     ideas.text = global.selectedFriend.ideas;
     userPicture.src = global.selectedFriend.image;
 
+    container.height = platformModule.screen.mainScreen.heightPixels;
 
     takePictureButton.on("Tap", function() {
         takePictureButton.animate({
@@ -92,7 +93,7 @@ function pageLoaded(args) {
                             dialogs.alert({
                                 title: title,
                                 message: msg
-                            })
+                            });
 
                             console.log('Item successfully deleted.');
                             frame.topmost().navigate("./views/friends/friends");
@@ -102,19 +103,17 @@ function pageLoaded(args) {
                         });
                 }
 
-                // result can be true/false/undefined
-                //console.log(result);
             });
         })
     });
 
     userPicture.on(gestures.GestureTypes.doubleTap, function() {
-        console.log('Double tap!')
+        console.log("AAAAAAAAAAAAAAAAAAAAAAA");
         if (!self.isImageBig) {
             gridContainer.visibility = enums.Visibility.collapse;
             deleteFriendButton.visibility = enums.Visibility.collapse;
             takePictureButton.visibility = enums.Visibility.collapse;
-            var scaleX = platformModule.screen.mainScreen.widthPixels / userPicture.getMeasuredWidth();
+            var scale = platformModule.screen.mainScreen.widthPixels / userPicture.getMeasuredWidth();
             var moveY = (platformModule.screen.mainScreen.widthPixels / 2) - (userPicture.getMeasuredHeight() / 2);
             self.isImageBig = true;
             userPicture.animate({
@@ -122,7 +121,7 @@ function pageLoaded(args) {
                 duration: 1000
             }).then(function() {
                 userPicture.animate({
-                    scale: { x: scaleX, y: scaleX },
+                    scale: { x: scale, y: scale },
                     duration: 1500
                 });
             });

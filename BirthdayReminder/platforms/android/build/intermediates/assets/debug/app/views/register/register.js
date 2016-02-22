@@ -16,7 +16,19 @@ function pageLoaded(args) {
     var email = view.getViewById(page, "email");
     var takePictureButton = view.getViewById(page, "takePictureButton");
 
-    registerButton.on("Tap", function () {
+    registerButton.on("Tap", function() {
+        registerButton.animate({
+            opacity: 0.7,
+            scale: { x: 1.02, y: 1.02 },
+            duration: 300
+        }).then(function() {
+            return registerButton.animate({
+                opacity: 0.9,
+                scale: { x: 0.98, y: 0.98 },
+                duration: 150
+            });
+        })
+
         var usernameValue = username.text.trim();
         var emailValue = email.text.trim();
         var passwordValue = password.text.trim();
@@ -29,62 +41,56 @@ function pageLoaded(args) {
             var msg = 'Username must be between 5 and 10 characters!';
             var okBtnTxt = "Try again";
             dialogs.alert({
-                  title: title,
-                  message: msg,
-                  okButtonText: okBtnTxt
+                title: title,
+                message: msg,
+                okButtonText: okBtnTxt
             })
-        }
-        else if (passwordValue.length < 5 || passwordValue.length > 10) {
+        } else if (passwordValue.length < 5 || passwordValue.length > 10) {
             var title = 'Invalid password';
             var msg = 'Password must be between 5 and 10 characters!';
             var okBtnTxt = "Try again";
             dialogs.alert({
-                  title: title,
-                  message: msg,
-                  okButtonText: okBtnTxt
+                title: title,
+                message: msg,
+                okButtonText: okBtnTxt
             })
-        }
-        else if (passwordValue != confirmPasswordValue) {
+        } else if (passwordValue != confirmPasswordValue) {
             var title = 'Invalid password';
             var msg = "Passwords do not match!";
             var okBtnTxt = "Try again";
             dialogs.alert({
-                  title: title,
-                  message: msg,
-                  okButtonText: okBtnTxt
+                title: title,
+                message: msg,
+                okButtonText: okBtnTxt
             })
-        }
-        else if (firstNameValue.length < 2 || firstNameValue.length > 10) {
+        } else if (firstNameValue.length < 2 || firstNameValue.length > 10) {
             var title = 'Invalid name';
             var msg = "First name must be between 2 and 10 characters!";
             var okBtnTxt = "Try again";
             dialogs.alert({
-                  title: title,
-                  message: msg,
-                  okButtonText: okBtnTxt
+                title: title,
+                message: msg,
+                okButtonText: okBtnTxt
             })
-        }
-        else if (lastNameValue.length < 2 || lastNameValue.length > 10) {
+        } else if (lastNameValue.length < 2 || lastNameValue.length > 10) {
             var title = 'Invalid name';
             var msg = "Last name must be between 2 and 10 characters!";
             var okBtnTxt = "Try again";
             dialogs.alert({
-                  title: title,
-                  message: msg,
-                  okButtonText: okBtnTxt
+                title: title,
+                message: msg,
+                okButtonText: okBtnTxt
             })
-        }
-        else if (emailValue.length == 0 || emailValue.indexOf('@') < 0) {
+        } else if (emailValue.length == 0 || emailValue.indexOf('@') < 0) {
             var title = 'Invalid e-mail';
             var msg = "E-mail must be a valid e-mail address!";
             var okBtnTxt = "Try again";
             dialogs.alert({
-                  title: title,
-                  message: msg,
-                  okButtonText: okBtnTxt
+                title: title,
+                message: msg,
+                okButtonText: okBtnTxt
             })
-        }
-        else {
+        } else {
             var token = usernameValue + usernameValue + usernameValue;
             var filter = {
                 'username': usernameValue
@@ -101,43 +107,42 @@ function pageLoaded(args) {
             };
 
             newBackendUser.get(filter)
-                .then(function (data) {
+                .then(function(data) {
                         if (data["count"] == "0") {
                             console.log("SUCCESS");
 
                             newBackendUser.create(global.currUser,
-                                function (data) {
+                                function(data) {
                                     var title = 'Registration';
                                     var msg = "You have registered successfully!";
-                                    
+
                                     dialogs.alert({
-                                          title: title,
-                                          message: msg                                          
+                                        title: title,
+                                        message: msg
                                     });
 
                                     global.currUser.Id = data['result']['Id'];
                                     frame.topmost().navigate("./views/user_profile/user_profile");
                                 },
-                                function (error) {
+                                function(error) {
                                     console.log("ERROR ADD USER TO BACKEND", JSON.stringify(error));
                                 });
-                        }
-                        else {
+                        } else {
                             console.log("EXISTS");
 
                             var title = 'Registration';
                             var msg = "The username already exists!";
-                            var okBtnTxt = "Try again";       
+                            var okBtnTxt = "Try again";
 
                             dialogs.alert({
-                                          title: title,
-                                          message: msg,
-                                          okButtonText: okBtnTxt                                          
-                                    });
+                                title: title,
+                                message: msg,
+                                okButtonText: okBtnTxt
+                            });
                             //label.text = "Username exists!"
                         }
                     },
-                    function (err) {
+                    function(err) {
                         console.log("ERROR CONNECTING TO BACKEND", JSON.stringify(err));
                     });
         }

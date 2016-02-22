@@ -12,19 +12,6 @@ function pageLoaded(args) {
     var textView = page.getViewById("welcome-text");
     textView.text = text;
 
-    var glCurrUser = global.everlive.data('Custom_Users');
-    var filter = {
-        'Id': "67d3b5c0-d64a-11e5-a423-df559cec2fd1"
-    };
-
-    glCurrUser.get(filter)
-        .then(function(data) {
-                global.currUser = data['result'][0];
-            },
-            function(error) {
-                console.dir(error);
-            });
-
     var username = view.getViewById(page, "username");
     var password = view.getViewById(page, "password");
     var logInButton = view.getViewById(page, "logInButton");
@@ -45,7 +32,7 @@ function pageLoaded(args) {
             })
             .then(function() {
                 var usernameValue = username.text.trim();
-                var passwordValue = password.text.trim()
+                var passwordValue = password.text.trim();
                 if (usernameValue.length > 0 && passwordValue.length > 0) {
 
                     var glCurrUser = global.everlive.data('Custom_Users');

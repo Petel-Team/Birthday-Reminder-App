@@ -1,73 +1,184 @@
-﻿button, label, image{
-	margin-top: 10;
-	margin-right: 5;
-	margin-left: 5;
+button,
+label,
+image {
+    margin-top: 10;
+    margin-right: 5;
+    margin-left: 5;
+    margin-bottom: 2;
 }
 
-page{
-
-    background-color: #ffecb3;
+page {
+    background-color: #ffe0b2;
+    /* #ffebee   #ffe082 */
 }
 
-    .main{
-        background-image: url("~/img/confetti2.png");
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: cover;
-    }
-
-/*.title {
-    font-size: 30;
-    horizontal-align: center;
-    margin: 20;
-}*/
-
-/*button {
-    font-size: 42;
-    horizontal-align: center;
-}*/
-
-/*.message {
-    font-size: 20;
-    color: #2#84848;;
-    horizontal-align: center;
-}*/
-
-.IndieFlower {
-    font-family: Idolwild;
-    font-size: 16;
+.pg-main {
+    background-color: #81d4fa;
+    background-image: url("~/img/big-cake.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
 
-.profile-btn{
+.main {
+    background-image: url("~/img/confetti2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+ActionBar {
+    background-color: #b71c1c;
+    color: white;
+}
+
+Image {
+    display: block;
+    width: 200;
+    height: 150;
+}
+
+.profile-btn {
     font-size: 14;
     horizontal-align: center;
-/*    background-color: #2196f3;*/
+    /*    background-color: #2196f3;*/
 }
 
-.profile-label{
-	horizontal-align: center;
+.profile-label {
+    horizontal-align: center;
 }
 
-label{
-	color: #1a237e;
-	font-family: IndieFlower;
+label {
+    color: #1a237e;
+    font-size: 18;
+    font-family: IndieFlower;
 }
 
-textfield{
+.lbl-log{
+    color: white;
+}
+
+textfield {
     height: 50;
     width: 400;
     font-style: italic;
-    font-size: 14;
+    font-family: ArchitectsDaughter;
+    font-size: 16;
 }
 
-#welcome-text{
-    font-size: 22;
+#welcome-text {
+    font-size: 24;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20;
 }
 
-#logInButton{
-    display:block;
+.btn-main {
+    display: block;
     background-color: #3f51b5;
+    width: 320;
+    height: 40;
+    color:white;
+}
+
+.op{
+    opacity: 0.9;
+}
+
+.btn-common {
+    display: block;
+    background-color: #3f51b5;
+    color: white;
+    width: 320;
+    height: 40;
+    margin-bottom: 5;
+}
+
+.btn-delete {
+    display: block;
+    background-color: #ffe0b2;
+    vertical-align: bottom;
+    horizontal-align: right;
+}
+
+.btn-fr-profile {
+    display: block;
+    background-color: #e57373;
+    color: white;
+    width: 150;
+    height: 40;
+}
+
+.btn-profile {
+    display: block;
+    background-color: #3f51b5;
+    color: white;
+    width: 150;
+    height: 40;
+}
+
+.editBtn {
+    font-size: 25;
+    width: 50;
+    height: 50;
+    font-family: FontAwesome;
+    background-color: #ffe0b2;
+    color: #3f51b5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile {
+    color: #e57373;
+}
+
+.btn-logout {
+    horizontal-align: right;
+    background-color: #ffe0b2;
+    height: 50;
+    width: 50;
+    margin-bottom: 0;
+}
+
+.fields {
+    font-family: ArchitectsDaughter;
+    font-size: 16;
+}
+
+.values {
+    horizontal-align: center;
+}
+
+.friend {
+    margin: 2, 2, 2, 2;
+    width: 300;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.friendImg {
+    width: 100;
+    height: 75;
+    margin: 5, 5, 5, 5;
+}
+
+.addFriendButton {
+    height: 50;
+    margin: 5, 5, 5, 5;
+}
+
+.addFriendBirthday {
+    height: 50;
+    width: 400;
+    color: gray;
+    font-style: italic;
+    font-family: ArchitectsDaughter;
+    font-size: 16;
+}
+
+.ellipse {
+    background-color: #ff5722;
+    text-align: center;
 }

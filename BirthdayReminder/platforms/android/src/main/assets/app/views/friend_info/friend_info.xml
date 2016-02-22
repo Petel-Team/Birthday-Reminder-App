@@ -2,7 +2,7 @@
     <ScrollView>
         <StackLayout id="container" verticalAlignment="top">
             <Button text="&#xf1f8;" class="editBtn btn-delete" id="deleteFriendButton" />
-            <Image src="" stretch="aspectFit" horizontalAlignment="center" id="userpicture" />
+            <Image src="" stretch="aspectFit" horizontalAlignment="center" id="userpicture"/>
             <Button text="change photo" tap="" class="btn-fr-profile" id="takePictureButton" />
             <GridLayout rows="40, 40, 40, 40" columns="*, *" horizontalAlignment="center" id="gridContainer">
                 <Label text="First Name:" row="0" col="0" />

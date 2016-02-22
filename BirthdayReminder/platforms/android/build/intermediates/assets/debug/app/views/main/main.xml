@@ -1,11 +1,12 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="main">
-    <StackLayout verticalAlignment="center">
-    	<Label text="{{text}}" textWrap="true" id="welcome-text" />
-    	
-        <TextField id="username" hint="Username" />
-        <TextField id="password" hint="Password" />
-        <Button id="logInButton" text="Log In" />
-        <Button id="registerButton" text="Register" />
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded" class="pg-main">
+	<ActionBar title="Birthday Reminder">
+	</ActionBar>
+    <StackLayout verticalAlignment="center" id="canvas">
+    	<Label text="{{text}}" textWrap="true" id="welcome-text" />	
+        <TextField id="username" hint="Username" class="lbl-log"/>
+        <TextField id="password" hint="Password" secure="true" class="lbl-log" />
+        <Button id="logInButton" text="Log In" class="btn-main op"/>
+        <Button id="registerButton" text="Register" class="btn-main op"/>
         <Label id="label"/>
     </StackLayout>
 </Page>

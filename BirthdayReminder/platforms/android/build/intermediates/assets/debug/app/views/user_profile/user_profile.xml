@@ -1,29 +1,23 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
-    <ScrollView>
+    <ActionBar title="My Profile" />
+    <ScrollView id="sv-profile">
         <StackLayout>
-            <Image src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/anonymous-512.png"
-                   stretch="none" horizontalAlignment="center" id="userpicture"/>
-            <Button text="pick a picture" tap="" class="profile-btn" id="takePictureButton"/>
-
-            <GridLayout rows="40, 40, 40, 40, 40" columns="*, *" horizontalAlignment="center">
-                <Label text="Username:" row="0" col="0"/>
-                <Label id="username" text="johnny_d" row="0" col="1"/>
-
-                <Label text="First Name:" row="1" col="0"/>
-                <Label id="firstname" text="John" row="1" col="1"/>
-
-                <Label text="Last Name:" row="2" col="0"/>
-                <Label id="lastname" text="Doe" row="2" col="1"/>
-
-                <Label text="E-mail:" row="3" col="0"/>
-                <Label id="email" text="john.doe@domain.com" row="3" col="1"/>
-
-                <Label text="Birthday:" row="4" col="0"/>
-                <Label id="birthday" text="01.01.1990" row="4" col="1"/>
+            <Button text="&#xf08b;" tap="" class="btn-logout editBtn" />
+            <Image src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/anonymous-512.png" stretch="aspectFit" horizontalAlignment="center" id="userpicture" />
+            <Button text="pick a picture" tap="" class="btn-profile" id="takePictureButton" />
+            <GridLayout rows="40, 40, 40, 40, 50" columns="150, 100, 50" horizontalAlignment="center">
+                <Label text="Username:" row="0" col="0" class="fields" />
+                <Label id="username" text="johnny_d" row="0" col="1" colSpan="2" class="values"/>
+                <Label text="First Name:" row="1" col="0" class="fields" />
+                <Label id="firstname" text="John" row="1" col="1" col="1" colSpan="2" class="values"/>
+                <Label text="Last Name:" row="2" col="0" class="fields" />
+                <Label id="lastname" text="Doe" row="2" col="1" col="1" colSpan="2" class="values" />
+                <Label text="E-mail:" row="3" col="0" class="fields" />
+                <Label id="email" text="john.doe@domain.com" row="3" col="1" col="1" colSpan="2" class="values"/>
+                <Label text="Birthday:" row="4" col="0" class="fields" />
+                <Label id="birthday" text="01.01.1990" row="4" col="1" class="values" />
+                <Button id="changeBirthDay" text="&#xf044;" class="profile-btn editBtn" row="4" col="2" />
             </GridLayout>
-            <Button id="changeBirthDay" text="Change Birthday" class="profile-btn"/>
-            <Button text="View Friends" id="viewFriendsButton" class="profile-btn"/>
-            <Button text="logout" tap="" class="profile-btn"/>
         </StackLayout>
     </ScrollView>
 </Page>

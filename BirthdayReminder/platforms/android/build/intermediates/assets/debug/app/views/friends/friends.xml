@@ -1,12 +1,18 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
-    <StackLayout>
-        <Button text="Add item" id="addFriendButton"/>
-        <ListView items="{{items}}" id="friendsList">
-            <ListView.itemTemplate>
-                <StackLayout>
-                    <Label text="{{firstname || 'Downloading...' }}"/>
-                </StackLayout>
-            </ListView.itemTemplate>
-        </ListView>
-    </StackLayout>
+        <ActionBar title="Birthdays" />
+        <GridLayout rows="*, 60" columns="*">
+             <Button text="Sort by birthday" id="sortByBdButton" row="1" col="0" class="btn-common"/>
+                <ListView items="{{items}}" id="friendsList" row="0" col="0">
+                    <ListView.itemTemplate>
+                        <StackLayout orientation="horizontal">
+                            <Image src="{{image}}" stretch="aspectFit" horizontalAlignment="center" id="friendPicture" class="friendImg" />
+                            <StackLayout>
+                                <Label text="{{firstname + ' ' + lastname || 'Downloading...' }}" class="friend name" />
+                                <Label text="{{birthday || 'Downloading...' }}" class="friend" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ListView.itemTemplate>
+                </ListView>
+            <Button text="Add birthday" id="addFriendButton" row="1" col="0" class="btn-common"/>
+        </GridLayout>
 </Page>
