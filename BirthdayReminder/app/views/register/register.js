@@ -122,7 +122,7 @@ function pageLoaded(args) {
                                     });
 
                                     global.currUser.Id = data['result']['Id'];
-                                    frame.topmost().navigate("./views/user_profile/user_profile");
+                                    frame.topmost().navigate("./views/friends/friends");
                                 },
                                 function(error) {
                                     console.log("ERROR ADD USER TO BACKEND", JSON.stringify(error));

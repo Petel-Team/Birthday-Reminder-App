@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="D:\D\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\widgets.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ff3c62a8eb22f0111b882125ad1579dc6273fd90">
+        <dex dex="D:\D\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\widgets-46dda0fdd692b28bec0fed8b43705eed9ca890cc.jar" />
+    </item>
+    <item
         jar="D:\A\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\widgets.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -14,6 +21,13 @@
         revision="22.0.1"
         sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
         <dex dex="D:\A\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-e52df0fac2d7439984fbb695cd902b1870dbaf57.jar" />
+    </item>
+    <item
+        jar="D:\D\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\nativescript.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e49ee2301dce2f85edd44f634fd45ad92df9e00a">
+        <dex dex="D:\D\Birthday-Reminder-App\BirthdayReminder\platforms\android\build\intermediates\pre-dexed\debug\nativescript-956b9a7a8fe036bed03247afe836f3bf306d2614.jar" />
     </item>
     <item
         jar="D:\A\Birthday-Reminder-App\BirthdayReminder\platforms\android\libs\nativescript.jar"

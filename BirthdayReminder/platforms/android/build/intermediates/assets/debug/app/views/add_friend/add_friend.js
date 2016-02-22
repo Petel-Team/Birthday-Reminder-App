@@ -76,7 +76,7 @@ function pageLoaded(args) {
         var birthday = datepicker.month + "." + datepicker.day + "." + datepicker.year;
         var firstNameValue = firstName.text.trim();
         var lastNameValue = lastName.text.trim();
-        //var userPictureFile = userPicture.imageSource;
+        var userPictureFile = userPicture.imageSource;
 
         if (firstNameValue.length < 2 || firstNameValue.length > 10) {
             var title = 'Add birthday';
